@@ -10,3 +10,9 @@ def check_register(dictionary):
 
 print(check_register({'John': 'yes', 'Jane': 'no', 'Jack': 'yes', 'Jill': 'no', 'Joe': 'yes'}))
 
+# extra
+# create a tuple that returns only lowercase names from a tuple leaving the uppercase names in the tuple
+def get_lower_names(tup):
+    return tuple([i for i in tup if i.islower()])
+
+print(get_lower_names(('John', 'Jane', 'Jack', 'Jill', 'Joe', 'abel', 'baker', 'charlie', 'david', 'edward')))
