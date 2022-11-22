@@ -12,5 +12,5 @@ def only_float(a, b):
         # return 0 if both are not floats
         return 0
 
-print(only_float(1.0, 2.4))
+print(only_float(12, 2.4))
 
