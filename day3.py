@@ -15,4 +15,4 @@ print(check_register({'John': 'yes', 'Jane': 'no', 'Jack': 'yes', 'Jill': 'no', 
 def get_lower_names(tup):
     return tuple([i for i in tup if i.islower()])
 
-print(get_lower_names(('John', 'Jane', 'Jack', 'Jill', 'Joe', 'abel', 'baker', 'charlie', 'david', 'edward')))
+print(get_lower_names(('john', 'Jane', 'Jack', 'Jill', 'Joe', 'abel', 'baker', 'charlie', 'david', 'edward')))
